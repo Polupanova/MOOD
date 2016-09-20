@@ -454,28 +454,16 @@ line-height: 1.5px;
   text-align: center;
   position: relative;
 }
-.social-team ul {
-  list-style-type: none;
-  text-align: center;
-}
-.social-team{
-  width: 135px;
+
+.social-team  a {
+  width: 30px;
+  height: 30px;
   display: inline-block;
-  position: relative;
   padding-left: 76px;
-  padding-top: 25px;
+  margin-top: 40px;
   padding: 5px 5px;
   background-color: rgba(0,0,0,0.3);
   height: 30px;
-}
-
-.social-team li{
-  float:left;
-}
-.social-team li a{
-  list-style-image: none;
-  padding: 5px 5px;
-
 }
 
 .title-person {
