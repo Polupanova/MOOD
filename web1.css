@@ -181,7 +181,7 @@ font-weight: 400;
 font-weight: 300;
   float:left;
   padding-left: 75px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
 
 }
@@ -223,39 +223,29 @@ font-weight: 400;
   opacity: 0.8;
 }
 .work-navigation{
-  height: 26px;
-  margin-top: 50px;
-  float: left;
+  margin-top: 32px;
+ text-align: center;
+  }
+  .work-dots {
+  font-size: 13px;
   display: inline-block;
-  }
-  ul{
-    list-style-type: none;
-    text-align: center;
-    padding-left:350px;
-  }
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding: 6px 13px;
+  margin: 0 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #FFF;
+  text-decoration: none;
+}
+.work-dots:hover {
+  border: 1px solid white;
+}
   button{
     background: none;
     border:none;
   }
-  .work-navigation button{
-    float: left;
-    display: inline-block;
-  }
-  .work-navigation button a{
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    border: 1px solid transparent;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-  }
-  .work-navigation  button a:hover{
-     border-radius: 10px;
-     border: 1px solid white;
-    padding: 10px;
-     }
      .ellipse button{
        border-radius: 100%;
       width: 8px;
@@ -267,7 +257,7 @@ font-weight: 400;
       display: inline;
       }
      .navigator-ellipse {
-     margin-top: 88px;
+     margin-top: 20px;
     padding-left: 610px;
 
      }
@@ -347,6 +337,99 @@ border-radius: 50%;
   padding-top: 5px;
   font-size: 14px;
 }
+.table-header{
+  background: url(bg-green.png);
+  background-size: cover;
+  height: 280px;
+}
+.table-title{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding-top: 115px;
+  text-align: center;
+}
+.table-nav {
+  margin-top: 70px;
+  text-align: center;
+}
+.table-button {
+  font-size: 13px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  padding: 6px 13px;
+  margin: 0 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #FFF;
+  text-decoration: none;
+}
+.table-button:hover{
+  border: 1px solid white;
+}
+.price-table{
+  background-color: #2a5759;
+  height: 520px;
+}
+.table-info{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80vw;
+}
+.price-table th{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+   height: 91px;
+   border-bottom: 1px solid rgba(67,124,126,1);
+
+}
+.price-table td{
+color:#6ffaff;
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-align: center;
+height: 50px;
+border-bottom:1px solid rgba(67,124,126,0.5);
+
+}
+.price-table button{
+  color: white;
+  border: 1px solid white;
+  font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+padding: 6px 30px;
+text-decoration: none;
+cursor: pointer;
+
+}
+.price-table .rows6 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border-bottom:1px solid rgba(67,124,126,1);
+  height: 80px;
+  }
+  .price-table tfoot td{
+  height: 148px;
+
+  }
+.price-table td :hover{
+   background-color: rgba(49,103,105,1);
+}
 .cover-title {
   color: white;
   font-size: 16px;
@@ -363,10 +446,10 @@ padding-left: 55px;
 
 .team{
   background-color: #57aa68;
-  height: 793px;
+  height: 860px;
 }
   .team1{
-  padding-top: 79px;
+  padding-top: 115px;
   text-align:center;
   color:#fff;
   font-family: 'Roboto', sans-serif;
@@ -497,14 +580,14 @@ font-weight: 300;
 padding-left: 55px;
 }
 .forma{
-height:600px;
+height:719px;
 background-image:url(bg-blue.png);
 background-size: cover;
 text-align: center;
 
 }
 .forma-title{
-  padding-top:55px;
+  padding-top:111px;
   color:#fff;
   font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -562,9 +645,9 @@ textarea::-webkit-input-placeholder { color: white;}
 textarea::-moz-placeholder { color: white; }
 
 .adress{
-  font-size: 21px;
+  font-size: 18px;
   color: #fff;
-  margin-top: 23px;
+  margin-top: 45px;
   font-family: 'Roboto', sans-serif;
 font-weight: 300;
 }
