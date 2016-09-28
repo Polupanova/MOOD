@@ -134,8 +134,9 @@ p{
  .navigator-dots {
 margin-right: 50px;
 position: absolute;
-top: 60%;
 right: 0;
+  top: 70%;
+  transform: translateY(-70%);
 }
  .dots button:hover, .dots button.on{
    background-color: #FFF;
@@ -150,6 +151,10 @@ right: 0;
    position: relative;
    padding-top: 70px;
   padding-bottom: 50px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
 }
 h3{
   text-decoration: none;
@@ -175,7 +180,7 @@ font-weight: 400;
   font-family: 'Roboto', sans-serif;
 font-weight: 300;
   float:left;
-  padding-left: 75px;
+  padding-left: 50px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -253,7 +258,7 @@ font-weight: 400;
      .navigator-ellipse {
      padding-top: 40px;
      padding-bottom: 30px;
-    padding-left: 610px;
+    text-align: center;
 
      }
      .ellipse button:hover{
@@ -469,7 +474,8 @@ font-weight: 400;
  }
  .navigator-team{
    padding-top: 40px;
-   padding-left: 610px;
+   margin: auto;
+   text-align: center;
  }
 
 .ellipses button:hover{
@@ -631,7 +637,7 @@ textarea {
      overflow: hidden;
 }
 
-.contact-submit-btn {
+.contact-submit {
   background-color: transparent;
   font-family: 'Roboto', sans-serif;
 font-weight: 400;
