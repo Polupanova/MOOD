@@ -81,8 +81,9 @@ font-weight: 300;
   padding: 90px 50px 40px;
       color: #fff;
         text-align:center;
-background: url(bg-red.svg) no-repeat center center fixed;
+background: url(img/bg-red.svg) no-repeat center center fixed;
 background-size: cover;
+position: relative;
 }
 
 .imgCenter{
@@ -135,8 +136,8 @@ p{
 margin-right: 50px;
 position: absolute;
 right: 0;
-  top: 70%;
-  transform: translateY(-70%);
+  top: 60%;
+  transform: translateY(-60%);
 }
  .dots button:hover, .dots button.on{
    background-color: #FFF;
@@ -180,7 +181,8 @@ font-weight: 400;
   font-family: 'Roboto', sans-serif;
 font-weight: 300;
   float:left;
-  padding-left: 50px;
+  padding-left: 3px;
+  padding-right: 30px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -198,7 +200,7 @@ margin-top: 20px;
 /* Team-start */
 .work{
   width: auto;
-  background-image:url(bg-green.png);
+  background-image:url(img/bg-green.png);
   background-size: cover;
 }
 .header{
@@ -341,7 +343,7 @@ border-radius: 50%;
 
 /* table-start */
 .table-header{
-  background: url(bg-green.png);
+  background: url(img/bg-green.png);
   background-size: cover;
   position: relative;
 }
@@ -430,7 +432,8 @@ cursor: pointer;
 .price-table td :hover{
    background-color: rgba(49,103,105,1);
 }
-th.price-active, td.price-active, th.price-active:hover, td.price-active:hover {
+th.price-active,
+td.price-active {
   background-color: #316769;
   color: #FFF;
 }
@@ -511,7 +514,8 @@ font-weight: 400;
   width: 272px;
   height: 301px;
   float:left;
-  padding-left: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 150px;
 }
@@ -591,7 +595,7 @@ padding-left: 55px;
 
 /* forma-start*/
 .forma{
-background-image:url(bg-blue.png);
+background-image:url(img/bg-blue.png);
 background-size: cover;
 text-align: center;
 padding: 0 20px;
