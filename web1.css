@@ -25,6 +25,7 @@ min-width: 1100px;
   background-color:rgba(211,53,35,0.7);
   position:fixed;
   z-index: 30;
+  top:0;
 }
   .logo-info{
     float:left;
@@ -88,9 +89,8 @@ position: relative;
 
 .imgCenter{
   padding-top:160px;
-   padding-bottom:58px;
-   padding-left:183px;
-   padding-right:183px;
+   margin: 0 auto;
+   padding-bottom: 58px;
 }
 .imgsocial  {
   height: 25px;
@@ -112,18 +112,15 @@ position: relative;
 
     }
 p{
-  text-align: center;
   font-size: 18px;
-  line-height: normal;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
    line-height: 30px;
    margin-top:  5px;
-   padding-left:85px;
-   padding-right:78px;
+   text-align: center;
  }
  .dots button{
-   border-radius: 100%;
+   border-radius: 50%;
   width: 8px;
   height: 8px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -149,7 +146,6 @@ right: 0;
 .offers{
   width: auto;
   background-color: #d33523;
-   position: relative;
    padding-top: 70px;
   padding-bottom: 50px;
 }
@@ -181,8 +177,8 @@ font-weight: 400;
   font-family: 'Roboto', sans-serif;
 font-weight: 300;
   float:left;
-  padding-left: 3px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-size: 14px;
   line-height: 24px;
 }
@@ -248,7 +244,7 @@ font-weight: 400;
     border:none;
   }
      .ellipse button{
-       border-radius: 100%;
+       border-radius: 50%;
       width: 8px;
       height: 8px;
       border: 1px solid rgba(255, 255, 255, 0.2);
@@ -282,16 +278,18 @@ font-weight: 400;
 .picture-collage {
        float: left;
      }
-     .picture-txt{
+     .picture-txt {
        height: 300px;
   width: 320px;
   opacity: 0;
   font-size: 18px;
   text-align: center;
      }
-     .picture-txt:hover {
+     .picture-txt:hover  {
   background-color: rgba(87,170,104,0.8);
   opacity: 1;
+  cursor: pointer;
+  text-decoration: none;
 }
 .conteiner-rings{
   padding-top: 90px;
@@ -339,6 +337,7 @@ border-radius: 50%;
   padding-top: 5px;
   font-size: 14px;
 }
+
 /* team-end */
 
 /* table-start */
@@ -466,7 +465,7 @@ font-weight: 400;
   text-transform: uppercase;
 }
 .ellipses button{
-  border-radius: 100%;
+  border-radius: 50%;
  width: 8px;
  height: 8px;
  border: 1px solid rgba(255, 255, 255, 0.2);
