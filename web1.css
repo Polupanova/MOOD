@@ -24,7 +24,6 @@ img {
 
 .main-container {
     margin: 0;
-    width: auto;
     padding: 0;
 }
 
@@ -64,7 +63,7 @@ img.parameters-pictures {
     padding-top: 8px;
 }
 
-ul {
+ul.menu {
     list-style-type: none;
     padding-right: 58px;
     text-align: center;
@@ -72,7 +71,6 @@ ul {
 
 .menu li {
     float: right;
-    display: inline-block;
 }
 
 .menu li a {
@@ -83,7 +81,7 @@ ul {
     text-align: center;
     padding: 20px 10px;
     text-decoration: none;
-    border-top: 5px solid transparent;
+    border-top: 6px solid transparent;
 }
 
 .menu-link:hover, .menu-link.active {
@@ -107,7 +105,7 @@ ul {
 .img-center {
     padding-top: 160px;
     margin: 0 auto;
-    padding-bottom: 58px;
+    padding-bottom: 50px;
 }
 
 .slider-social-icon {
@@ -116,28 +114,26 @@ ul {
 }
 
 .imgsocial {
-    height: 25px;
     display: inline-block;
 }
 
-.imgsocial li {
-    float: left;
+.imgsocial ol {
     display: inline-block;
-}
-
-.imgsocial li a {
     padding: 5px 5px;
+}
+
+.imgsocial ol a {
     list-style-image: none;
     opacity: 0.5;
 }
 
-.imgsocial li a:hover {
+.imgsocial ol a:hover {
     opacity: 0.8;
     background-color: transparent;
 }
 
 p.slider-info {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.6;
     margin-top: 5px;
@@ -156,9 +152,8 @@ p.slider-info {
 }
 
 .navigator-dots {
-    margin-right: 50px;
     position: absolute;
-    right: 0;
+    right: 50px;
     top: 60%;
     transform: translateY(-60%);
 }
@@ -175,7 +170,6 @@ p.slider-info {
 /* Service-start */
 
 .offers {
-    width: auto;
     background-color: #d33523;
     padding-bottom: 50px;
 }
@@ -192,7 +186,7 @@ h3 {
 }
 
 .title-offers {
-    height: 80px;
+    padding-bottom:75px;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -202,12 +196,12 @@ h3 {
 
 .one-offer-block {
     width: 251px;
-    height: 334px;
     text-align: center;
     font-weight: 300;
     float: left;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 50px;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -229,7 +223,6 @@ h3 {
 /* Team-start */
 
 .work {
-    width: auto;
     background-image: url(img/bg-green.png);
     background-size: cover;
 }
@@ -267,6 +260,7 @@ h3 {
     border-radius: 5px;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .work-dots:hover, .work-dots.active {
@@ -417,6 +411,7 @@ button {
     border-radius: 5px;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .table-button:hover, .table-button.active {
@@ -664,7 +659,7 @@ img.social-team-navigation {
     text-transform: uppercase;
 }
 
-input[type=text], textarea {
+input.fullname,input.e-mail, textarea.matters {
     width: 600px;
     padding: 10px 10px;
     margin: 5px 0;
@@ -677,7 +672,7 @@ input[type=text], textarea {
     font-size: 13px;
 }
 
-textarea {
+textarea.matters {
     resize: none;
     height: 230px;
     overflow: auto;
@@ -715,7 +710,7 @@ textarea::-moz-placeholder {
     color: white;
 }
 
-.adress {
+.address {
     font-size: 18px;
     padding-top: 45px;
     font-weight: 300;
@@ -725,11 +720,9 @@ textarea::-moz-placeholder {
 
 /* forma-end */
 
-iframe {
-    width: 100%;
-}
 
-.copy-conteiner {
+
+.copy-container {
     font-weight: 300;
     text-align: center;
     font-size: 13px;
