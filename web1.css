@@ -24,7 +24,6 @@ button {
     border: none;
 }
 
-
 /* Header Start */
 
 .main-container {
@@ -33,9 +32,9 @@ button {
 }
 
 .navigation-container {
-    width: 100%;
     height: 72px;
     float: left;
+    width: 100%;
     background-color: rgba(211, 53, 35, 0.9);
     position: fixed;
     z-index: 30;
@@ -79,11 +78,11 @@ ul.navigation-menu {
 }
 
 .navigation-menu li a {
-    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-align: center;
+    color: #fff;
     padding: 20px 10px;
     text-decoration: none;
     border-top: 6px solid transparent;
@@ -244,7 +243,6 @@ p.work-paragraph {
     text-align: center;
     padding-top: 48px;
     line-height: 1.5;
-    opacity: 0.8;
     display: block;
     width: 71%;
     margin: 35px auto 0;
@@ -499,7 +497,6 @@ th.price-active, td.price-active {
 
 p.team-paragraph {
     padding-top: 40px;
-    opacity: 0.8;
     line-height: 1.5;
     display: block;
     width: 70%;
