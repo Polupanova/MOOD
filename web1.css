@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 .cf:before, .cf:after {
     content: "";
     display: table;
@@ -9,7 +13,7 @@
 
 body {
     margin: 0;
-    min-width: 1280px;
+    min-width: 1100px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
@@ -24,6 +28,70 @@ button {
     border: none;
 }
 
+
+/* navigation-link */
+
+.navigation-link {
+    font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 6px 13px;
+    margin: 0 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.navigation-link:hover, .navigation-link.active {
+    border: 1px solid white;
+}
+
+
+/* navigation-link */
+
+
+/* background-parameters */
+
+#work, .forma-box {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/* background-parameters */
+
+
+/* navigation-ellipse */
+
+.navigation-ellipse {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.ellipse button {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 8px;
+    padding: 0;
+    background-color: transparent;
+    display: inline;
+}
+
+.ellipse button:hover, .ellipse button.active {
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+
+/* navigation-ellipse */
+
+
 /* Header Start */
 
 .main-container {
@@ -33,12 +101,12 @@ button {
 
 .navigation-container {
     height: 72px;
-    float: left;
     width: 100%;
     background-color: rgba(211, 53, 35, 0.9);
     position: fixed;
     z-index: 30;
     top: 0;
+    left: 0;
 }
 
 .navigation-logo {
@@ -82,7 +150,6 @@ ul.navigation-menu {
     text-align: center;
     color: #fff;
     padding: 20px 10px;
-    text-decoration: none;
     border-top: 6px solid transparent;
 }
 
@@ -119,17 +186,17 @@ ul.navigation-menu {
     display: inline-block;
 }
 
-.slider-social-nav ol {
+.slider-social-nav li {
     display: inline-block;
     padding: 5px 5px;
 }
 
-.slider-social-nav ol a {
+.slider-social-nav li a {
     list-style-image: none;
     opacity: 0.5;
 }
 
-.slider-social-nav ol a:hover {
+.slider-social-nav li a:hover {
     opacity: 0.8;
     background-color: transparent;
 }
@@ -184,7 +251,6 @@ p.slider-paragraph {
 }
 
 h3.offer-title {
-    text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
@@ -199,7 +265,7 @@ h3.offer-title {
     text-transform: uppercase;
 }
 
-.offer-list {
+.offer-items {
     width: 251px;
     text-align: center;
     font-weight: 300;
@@ -221,11 +287,10 @@ h3.offer-title {
 /* Service-end */
 
 
-/* Team-start */
+/* work-start */
 
-.work-container {
+#work {
     background-image: url(img/bg-green.png);
-    background-size: cover;
 }
 
 .work-main-title {
@@ -252,76 +317,31 @@ p.work-paragraph {
     text-align: center;
 }
 
-.work-navigation-link {
-    font-size: 13px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 400;
-    padding: 6px 13px;
-    margin: 0 30px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color: #FFF;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.work-navigation-link:hover, .work-navigation-link.active {
-    border: 1px solid white;
-}
-
-.ellipse button {
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    margin: 8px;
-    padding: 0;
-    background-color: transparent;
-    display: inline;
-}
-
-.navigator-ellipse {
-    padding-top: 40px;
-    padding-bottom: 30px;
-    text-align: center;
-}
-
-.ellipse button:hover, .ellipse button.active {
-    background-color: #FFF;
-    cursor: pointer;
-}
-
-.picture-collage-list-font {
-    background-color: #57aa68;
-}
-
 .picture-collage-list-container {
     background-size: cover;
-    width: 1280px;
+    width: 1100px;
     margin: auto;
-}
-a.text-decoration{
-  text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .picture-collage-list {
     float: left;
+    height: 0;
+    padding-bottom: 25%;
+    width: 25%
 }
 
 .picture-txt {
-    height: 300px;
-    width: 320px;
     opacity: 0;
     font-size: 18px;
     text-align: center;
+    padding-bottom: 22%;
 }
 
 .picture-txt:hover {
     background-color: rgba(87, 170, 104, 0.8);
     opacity: 1;
     cursor: pointer;
-    text-decoration: none;
 }
 
 .conteiner-rings {
@@ -368,7 +388,6 @@ a.text-decoration{
 }
 
 .picture-collage-list-subhead {
-    text-decoration: none;
     color: white;
     font-weight: 300;
     padding-top: 5px;
@@ -376,7 +395,7 @@ a.text-decoration{
 }
 
 
-/* team-end */
+/* work-end */
 
 
 /* table-start */
@@ -384,7 +403,6 @@ a.text-decoration{
 .table-header {
     background: url(img/green-grey-bg.svg);
     background-size: cover;
-    position: relative;
 }
 
 .table-title {
@@ -399,24 +417,6 @@ a.text-decoration{
     padding-top: 70px;
     text-align: center;
     padding-bottom: 35px;
-}
-
-.table-nav-link {
-    font-size: 13px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 400;
-    padding: 6px 13px;
-    margin: 0 30px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color: #FFF;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.table-nav-link:hover, .table-nav-link.active {
-    border: 1px solid white;
 }
 
 .price-table {
@@ -457,7 +457,6 @@ a.text-decoration{
     text-align: center;
     text-transform: uppercase;
     padding: 6px 30px;
-    text-decoration: none;
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 78px;
@@ -485,7 +484,7 @@ th.price-active, td.price-active {
 
 /* team-start */
 
-.team {
+.team-box {
     background-color: #57aa68;
 }
 
@@ -508,42 +507,21 @@ p.team-paragraph {
     font-weight: 300;
 }
 
-.team-page-nav {
-    padding-top: 20px;
-    margin: auto;
-    text-align: center;
-}
-
-.ellipses button {
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    margin: 8px;
-    padding: 0;
-    background-color: transparent;
-    display: inline;
-}
-
-.ellipses button:hover, .ellipses button.activated {
-    background-color: #FFF;
-    cursor: pointer;
-}
-
-.team-info-img a {
-    width: 270px;
-    height: 300px;
+.team-info-img {
+    width: 100%;
+    max-width: 260px;
+    max-height: 290px;
     position: absolute;
 }
 
-.team-list {
+.team-items {
     display: inline-block;
     position: relative;
 }
 
 .team-info {
-    width: 270px;
-    height: 300px;
+    width: 260px;
+    height: 290px;
     float: left;
     padding: 15px;
     padding-top: 30px;
