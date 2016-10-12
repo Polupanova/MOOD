@@ -3,26 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="web1.css">
 
 
     <!-- header-Start -->
+    <header class="main-wrapper">
         <div class="navigation-container">
             <div class="navigation-logo">
-                <a href="#start"><img class="parameters-pictures" src="img\32x381.png"></a>
+                <a href="#start"><img class="parameters-pictures" src="img\logo.png"></a>
             </div>
             <div class="navigation-title">
                 dizaina darbnīca
             </div>
             <ul class="navigation-menu">
-                <li><a class="menu-link" href="#contact">Sazināties</a></li>
-                <li><a class="menu-link" href="#team">Komanda</a></li>
-                <li><a class="menu-link" href="#work">Darbi</a></li>
-                <li><a class="menu-link" href="#service">Pakalpojumi</a></li>
-                <li><a class="menu-link active" href="#start">Sākums</a></li>
+                <li><a class="navigation-menu-link" href="#contact">Sazināties</a></li>
+                <li><a class="navigation-menu-link" href="#team">Komanda</a></li>
+                <li><a class="navigation-menu-link" href="#work">Darbi</a></li>
+                <li><a class="navigation-menu-link" href="#service">Pakalpojumi</a></li>
+                <li><a class="navigation-menu-link active" href="#start">Sākums</a></li>
             </ul>
         </div>
+      </header>
     <!-- header-Start -->
 </head>
 
@@ -31,29 +34,31 @@
     <section id="start">
         <div class="slider">
             <div class="slider-img">
-                <img src="img\66x23-3.png">
+                <img src="img\mood.png">
             </div>
+            <div class="slider-wrapper">
             <p class="slider-paragraph"> Mēs ticam, ka esam paveikuši savu darbu labi, ja klients iegūst efektīvu un viegli lietojamu instrumentu - vai tas būtu mājas lapas prototips, makets, logotips - kas palīdz sasniegt nepieciešamo rezultātu - pārdot preci, izglītot, izlaidēt
                 vai informēt </p>
+              </div>
             <div class="slider-social-nav">
                 <ol>
                     <li>
-                        <a href="https://twitter.com/"><img class="slider-social-icon" src="img/twitter.png"></a>
+                        <a href="https://twitter.com/"><img class="slider-social-nav-icon" src="img/twitter.png"></a>
                     </li>
                     <li>
-                        <a href="https://facebook.com"><img class="slider-social-icon" src="img/facebook.png"></a>
+                        <a href="https://facebook.com"><img class="slider-social-nav-icon" src="img/facebook.png"></a>
                     </li>
                     <li>
-                        <a href="https://dribble.com"><img class="slider-social-icon" src="img/dribbble.png"></a>
+                        <a href="https://dribble.com"><img class="slider-social-nav-icon" src="img/dribbble.png"></a>
                     </li>
                     <li>
-                        <a href="https://behance.com"><img class="slider-social-icon" src="img/behance.png"></a>
+                        <a href="https://behance.com"><img class="slider-social-nav-icon" src="img/behance.png"></a>
                     </li>
                 </ol>
             </div>
-            <div class="slide-page-nav">
+            <div class="slider-page-nav">
                 <div class="dots">
-                    <button class="on"></button>
+                    <button class="dots active"></button>
                     <button></button>
                     <button></button>
                 </div>
@@ -98,6 +103,7 @@
 
     <!--Team-Start-->
     <section id="work">
+      <div class="work-wrapper">
         <div class="work-container">
             <div class="work-main-title">
                 Mūsu darbi
@@ -115,7 +121,7 @@
             </nav>
             <div class="navigation-ellipse">
                 <div class="ellipse">
-                    <button class="active"></button>
+                    <button class=" ellipse active"></button>
                     <button class></button>
                     <button class></button>
                 </div>
@@ -126,15 +132,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-02.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -144,15 +142,7 @@
             <div class="picture-collage-list" style="background-image:url('img/photo-03.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -162,15 +152,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-04.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -180,15 +162,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-05.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -198,15 +172,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-06.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -216,15 +182,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-01.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -234,15 +192,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-07.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                           <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -252,15 +202,7 @@
             <div class="picture-collage-list" style="background-image: url('img/photo-08.jpg')">
                 <a href="#">
                     <div class="picture-txt">
-                        <div class="conteiner-rings">
-                            <div class="rings1">
-                                <div class="rings2">
-                                    <div class="rings3">
-                                        <div class="rings4"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <img class="picture-collage-icon" src="img/ellipse.png">
                         <div class="picture-collage-list-title">
                             Proin gravida nibh vel velit </div>
                         <div class="picture-collage-list-subhead">Fotogrāfija</div>
@@ -268,6 +210,7 @@
                 </a>
             </div>
         </div>
+      </div>
     </section>
     <!-- Team-end-->
 
@@ -358,7 +301,7 @@
             </p>
             <div class="navigation-ellipse">
                 <div class="ellipse">
-                    <button class="active"></button>
+                    <button class="ellipse active"></button>
                     <button class></button>
                     <button class></button>
                 </div>
@@ -374,9 +317,9 @@
                                 Proin gravida nibh vel velit auctor aliquet.
                                 <div class="team-info-footer">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</div>
                                 <div class="team-info-social-nav">
-                                    <a href="https://twitter.com/"><img class="social-team-navigation" src="img/twitter.png"></a>
-                                    <a href="https://facebook.com/"><img class="social-team-navigation" src="img/facebook.png"></a>
-                                    <a href="https://dribble.com/"><img class="social-team-navigation" src="img/dribbble.png"></a>
+                                    <a href="https://twitter.com/"><img class="social-nav-icon-team" src="img/twitter.png"></a>
+                                    <a href="https://facebook.com/"><img class="social-nav-icon-team" src="img/facebook.png"></a>
+                                    <a href="https://dribble.com/"><img class="social-nav-icon-team" src="img/dribbble.png"></a>
                                 </div>
                             </div>
                             <h4>Jānis Pirmais</h4>
@@ -392,9 +335,9 @@
                                 Proin gravida nibh vel velit auctor aliquet.
                                 <div class="team-info-footer">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</div>
                                 <div class="team-info-social-nav">
-                                    <a href="https://twitter.com/"><img class="social-team-navigation" src="img/twitter.png"></a>
-                                    <a href="https://facebook.com/"><img class="social-team-navigation" src="img/facebook.png"></a>
-                                    <a href="https://dribble.com/"><img class="social-team-navigation" src="img/dribbble.png"></a>
+                                    <a href="https://twitter.com/"><img class="social-nav-icon-team" src="img/twitter.png"></a>
+                                    <a href="https://facebook.com/"><img class="social-nav-icon-team" src="img/facebook.png"></a>
+                                    <a href="https://dribble.com/"><img class="social-nav-icon-team" src="img/dribbble.png"></a>
                                 </div>
                             </div>
                             <h4>Annija Otrā</h4>
@@ -410,9 +353,9 @@
                                 Proin gravida nibh vel velit auctor aliquet.
                                 <div class="team-info-footer">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</div>
                                 <div class="team-info-social-nav">
-                                    <a href="https://twitter.com/"><img class="social-team-navigation" src="img/twitter.png"></a>
-                                    <a href="https://facebook.com/"><img class="social-team-navigation" src="img/facebook.png"></a>
-                                    <a href="https://dribble.com/"><img class="social-team-navigation" src="img/dribbble.png"></a>
+                                    <a href="https://twitter.com/"><img class="social-nav-icon-team" src="img/twitter.png"></a>
+                                    <a href="https://facebook.com/"><img class="social-nav-icon-team" src="img/facebook.png"></a>
+                                    <a href="https://dribble.com/"><img class="social-nav-icon-team" src="img/dribbble.png"></a>
                                 </div>
                             </div>
                             <h4>Kristaps Trešais</h4>
@@ -428,16 +371,16 @@
                                 Proin gravida nibh vel velit auctor aliquet.
                                 <div class="team-info-footer">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</div>
                                 <div class="team-info-social-nav">
-                                    <a href="https://twitter.com/"><img class="social-team-navigation" src="img/twitter.png"></a>
-                                    <a href="https://facebook.com/"><img class="social-team-navigation" src="img/facebook.png"></a>
-                                    <a href="https://dribble.com/"><img class="social-team-navigation" src="img/dribbble.png"></a>
+                                    <a href="https://twitter.com/"><img class="social-nav-icon-team" src="img/twitter.png"></a>
+                                    <a href="https://facebook.com/"><img class="social-nav-icon-team" src="img/facebook.png"></a>
+                                    <a href="https://dribble.com/"><img class="social-nav-icon-team" src="img/dribbble.png"></a>
                                 </div>
                             </div>
                             <h4>Ketija Ceturtā</h4>
                             <div class="team-info-subtitle">UI/UX dizainere</div>
                         </div>
                     </div><!--
-                --></div>
+              --></div>
             </div>
         </div>
     </section>
@@ -474,11 +417,11 @@
         width="100%" height="580" frameborder="0" style="border:0" allowfullscreen>
   </iframe>
 
-    <div class="footer">
+    <footer class="footer">
         <p class="footer-txt">
             ⓒ Copyright tekstam ir jābūt šeit, 2015
         </p>
-    </div>
+    </footer
 
 </body>
 
