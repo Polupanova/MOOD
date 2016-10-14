@@ -13,13 +13,12 @@
 
 body {
     margin: 0;
-    min-width: 1100px;
+    min-width: 1120px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
 img {
-    text-decoration: none;
     border: none;
 }
 
@@ -28,7 +27,17 @@ button {
 }
 h1{
   text-decoration: none;
-  margin: 0
+  margin: 0;
+}
+input:focus, button:focus, textarea:focus {
+  outline: none;
+}
+
+/*Grid*/
+.main-site-wrapper {
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* navigation-link */
@@ -50,20 +59,16 @@ h1{
     border: 1px solid white;
     transition: 0.40s;
 }
-
-
 /* navigation-link */
 
 
 /* background-parameters */
 
-.work-wrapper, .forma-box {
+.work-wrapper, .forma-box-container {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
-
-
 /* background-parameters */
 
 
@@ -91,16 +96,13 @@ h1{
     cursor: pointer;
     transition: 0.50s;
 }
-
-
 /* navigation-ellipse */
 
 
 /* Header Start */
 
-
 .navigation-container {
-    height: 72px;
+    min-height: 72px;
     width: 100%;
     background-color: rgba(211, 53, 35, 0.9);
     position: fixed;
@@ -112,11 +114,8 @@ h1{
 
 .navigation-logo {
     float: left;
-    margin-top: 9px;
-    margin-left: 50px;
-    margin-right: 10px;
+    margin:9px 10px 0 0;
 }
-
 .parameters-pictures {
     width: 48px;
     height: 57px;
@@ -132,11 +131,7 @@ h1{
 .navigation-menu {
     float: right;
     padding-top: 8px;
-}
-
-.navigation-menu {
     list-style-type: none;
-    padding-right: 58px;
     text-align: center;
 }
 
@@ -158,21 +153,20 @@ h1{
     border-color: rgba(255, 255, 255, 0.6);
     transition: 0.40s;
 }
-
-
 /* Header End */
 
 
 /* Slider-Mood-Start */
 
 .slider {
-    padding: 90px 50px 40px;
-    text-align: center;
     background: url(img/bg-red.svg) no-repeat center center fixed;
     background-size: cover;
-    position: relative;
 }
-
+.slider-wrapper {
+  padding: 90px 50px 40px;
+  text-align: center;
+  position: relative;
+}
 .slider-img {
     padding-top: 160px;
     margin: 0 auto;
@@ -208,10 +202,9 @@ h1{
     font-size: 20px;
     font-weight: 300;
     line-height: 1.6;
-    max-width: 1100px;
-    margin: 38px auto 0 auto;
+    margin-top: 38px;
+    margin-bottom: 0;
 }
-
 .dots button {
     border-radius: 50%;
     width: 8px;
@@ -234,8 +227,6 @@ h1{
     cursor: pointer;
     transition: 0.50s;
 }
-
-
 /* Slider-Mood-End */
 
 
@@ -246,10 +237,6 @@ h1{
     padding-bottom: 50px;
 }
 
-.offer-wrapper {
-  width:1100px;
-  margin: 0 auto;
-}
 
 .offer-title {
     font-size: 18px;
@@ -267,7 +254,8 @@ h1{
 }
 
 .offer-items {
-    width: 251px;
+    width: 25%;
+    box-sizing: border-box;
     text-align: center;
     font-weight: 300;
     float: left;
@@ -283,8 +271,6 @@ h1{
     margin-top: 20px;
     font-size: 16px;
 }
-
-
 /* Service-end */
 
 
@@ -319,8 +305,6 @@ h1{
 
 .picture-collage-list-container {
     background-size: cover;
-    width: 1100px;
-    margin: auto;
     padding-bottom: 20px;
 }
 
@@ -362,8 +346,6 @@ h1{
     padding-top: 5px;
     font-size: 14px;
 }
-
-
 /* work-end */
 
 
@@ -394,9 +376,8 @@ h1{
 }
 
 .price-table-title {
-    margin: 0 auto;
     border-collapse: collapse;
-    width: 1100px;
+    width: 100%;
 }
 
 .price-table th {
@@ -448,8 +429,6 @@ th.price-active, td.price-active {
     background-color: #316769;
     color: #FFF;
 }
-
-
 /* table-end */
 
 
@@ -470,16 +449,16 @@ th.price-active, td.price-active {
 .team-paragraph {
     padding-top: 40px;
     line-height: 1.5;
-    max-width: 1100px;
-    margin: 40px auto 0px;
+    margin-top: 40px;
+    margin-bottom: 0;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
 }
 
 .team-wrapper{
-  width:1100px;
-  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .team-container{
   margin: 0 -10px;
@@ -566,15 +545,16 @@ h4 {
     height: 32px;
 }
 
-
 /* team-end */
-
 
 /* forma-start*/
 
+.forma-box-container {
+  background-image: url(img/bg-blue.png);
+  background-size: cover;
+}
+
 .forma-box {
-    background-image: url(img/bg-blue.png);
-    background-size: cover;
     text-align: center;
     padding: 0 20px;
 }
@@ -634,8 +614,6 @@ textarea::-moz-placeholder {color: rgba(255, 255, 255, 0.7);}
     font-weight: 300;
     padding-bottom: 80px;
 }
-
-
 /* forma-end */
 
 .footer {
