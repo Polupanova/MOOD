@@ -194,7 +194,7 @@ input:focus, button:focus, textarea:focus {
 
 /* Slider-Mood-Start */
 .mainSlider{
-    background: url(img/bg-red.svg) no-repeat center center fixed;
+    background: url("../img/bg-red.svg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
 }
@@ -297,7 +297,7 @@ input:focus, button:focus, textarea:focus {
 /* work-start */
 
 .work-wrapper {
-    background-image: url(img/bg-green.png);
+    background-image: url("../img/bg-green.png");
 }
 
 .work-main-title {
@@ -372,9 +372,10 @@ input:focus, button:focus, textarea:focus {
 /* table-start */
 
 .table-header {
-    background: url(img/green-grey-bg.svg);
+    background: url("../img/green-grey-bg.svg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .table-title {
@@ -570,7 +571,7 @@ h4 {
 
 /* forma-start*/
 .forma-box-container {
-  background-image: url(img/bg-blue.png);
+  background-image: url("../img/bg-blue.png");
   background-size: cover;
 }
 
